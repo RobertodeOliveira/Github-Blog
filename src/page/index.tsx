@@ -5,9 +5,11 @@ import { Outlet } from 'react-router-dom'
 export function Page() {
   return (
     <>
-      <Header />
       <S.Container>
-        <Outlet />
+        <Header />
+        <S.Wrapper>
+          <Outlet />
+        </S.Wrapper>
       </S.Container>
     </>
   )

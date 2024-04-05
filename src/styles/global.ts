@@ -6,8 +6,8 @@ export const GlobalStyle = createGlobalStyle`
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-      /* color: ${theme.colors.baseText}; */
       color: ${theme.colors.baseText};
+      font-family: ${theme.font.family.primary};
     `}
   }
 
@@ -18,8 +18,7 @@ export const GlobalStyle = createGlobalStyle`
 
   body {
     ${({ theme }) => css`
-      background: white;
-      font-family: ${theme.font.family};
+      background: ${theme.colors.baseBackground};
     `}
   }
 `
