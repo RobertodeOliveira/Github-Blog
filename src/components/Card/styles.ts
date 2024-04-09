@@ -6,6 +6,10 @@ export const Container = styled.div`
     background: ${theme.colors.basePost};
 
     border-radius: 10px;
+
+    :&hover {
+      border: 2px solid ${theme.colors.baseLabel};
+    }
   `}
 `
 

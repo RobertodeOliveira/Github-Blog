@@ -9,6 +9,12 @@ export const CardProfile = styled.div`
     margin-top: -120px;
     display: flex;
     gap: 32px;
+
+    img {
+      width: 138px;
+      height: 138px;
+      border-radius: 10px;
+    }
   `}
 `
 
@@ -51,5 +57,10 @@ export const Footer = styled.div`
     display: flex;
     align-items: center;
     gap: 8px;
+
+    img {
+      width: 18px;
+      height: 18px;
+    }
   }
 `
